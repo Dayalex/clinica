@@ -1,0 +1,29 @@
+body {
+background-color: rgb(176, 176, 245);
+height: 140vh;
+display: flex;
+justify-content: center;
+align-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(44, 13, 218);
+  
+    align-content: center;
+    justify-content: center;
+}
+
+h2{
+    color: rgb(44, 13, 218);
+   
+    align-content: center;
+    justify-content: center;
+}
+
+form {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>!Solicita una cita!</h1>
+    <form action="Agendar cita" method="post">
+        <h2>Agenda cita</h2>
+    
+        <input type="text" Name ="Ingrese su Nombre" placeholder="Nombre completo" required>
+        
+        <input type="email" Name="Email"placeholder="Ingrese su Email" required>
+        
+        <input type="tel" name="ingrese su numero telefonico" placeholder="Ingrese su numero telefonico" required>
+        <select name="tipo paciente" id="tipo paciente">
+        <option value="">tipo paciente</option>
+        <option value="">Privado</option>
+        <option value="">asegurado</option>
+        <option value="">turista de salud</option>
+        </select>
+
+        <select name="Seleccione un horario" id="">
+             <option value="">Seleccione un horario</option>
+        <option value="">Mañana</option>
+        <option value="">Tarde</option>
+        </select>
+
+        <select name="motivo" required>
+        <option value="">motivo de la cita</option>
+        <option value="consulta">consulta</option>
+        <option value="seguimiento">seguimiento</option>
+        <option value="evolucion">evolucion</option>
+         <option value="otro">otro</option>
+         </select>
+         <textarea name="comentarios"  raws="4" placeholder="comentarios adicionales"></textarea>
+         <input type="checkbox" name="confirmacion" required>confirma que los datos son correctos
+         <button type="submit"> Agendar</button>
+        </section>
+    </form>
+
+</body>
+</html>
